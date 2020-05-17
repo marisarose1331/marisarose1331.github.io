@@ -1,0 +1,104 @@
+.topnav {
+  background-color: #82002F;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.topnav a {
+  color: #FCF8ED;
+  font-family: "Avenir";
+  text-decoration: none;
+}
+.topnav a:hover {
+  color: #008382;
+}
+
+
+h1 {
+  font-family: "Lucida Grande";
+  font-size: 32;
+  width: 530px;
+  color: #82002F;
+  background-color:#C1B4AE;
+  border: solid #008382;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-family: "Lucida Grande";
+  font-size: 25;
+  color: #008382;
+}
+
+p {
+  font-family: "Avenir";
+
+}
+
+img {
+  border: solid #82002F;
+  width: 400px;
+}
+
+.text-img {
+  display:flex;
+  flex-direction: row;
+  padding:0 2em;
+  justify-content: space-between;
+}
+
+.text-img > .text {
+  width:50%;
+  padding-right: 1em;
+}
+
+.text-img > .img {
+  width:50%;
+  padding-left: 1em;
+}
+
+.text-img > .img > img {
+  width:100%;
+}
+
+h3 {
+  font-family: "Lucida Grande";
+  font-size: 32;
+  width: 270px;
+  color: #82002F;
+  background-color:#C1B4AE;
+  border: solid #008382;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4{
+  font-family: "Lucida Grande";
+  font-size: 32;
+  width: 310px;
+  color: #82002F;
+  background-color:#C1B4AE;
+  border: solid #008382;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+  .text-img {
+    flex-direction: column-reverse;
+  }
+
+  .text-img > .text {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .text-img > .img {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+]
